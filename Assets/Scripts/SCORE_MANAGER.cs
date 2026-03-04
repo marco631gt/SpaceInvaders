@@ -53,6 +53,7 @@ public class SCORE_MANAGER : MonoBehaviour
         level = level + 1;
         deathsCounter = 0;
         SceneManager.LoadScene("SpaceInvaders"+level);
+        
     }
 
 }

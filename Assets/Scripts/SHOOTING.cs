@@ -85,7 +85,7 @@ public class shooting : MonoBehaviour
             
             SCORE_MANAGER.Instance.ResetScore();
             Destroy(gameObject);
-            SceneManager.LoadScene("SpaceInvaders1");
+            SceneManager.LoadScene("SpaceInvaders");
         }
     }
 }
