@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &340209443610830600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6282726648374437552}
+  m_Layer: 0
+  m_Name: ShootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6282726648374437552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340209443610830600}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 13.1190815, y: -37.41919, z: 180}
+  m_LocalScale: {x: 2.872948, y: 8.244606, z: 180}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8555439554253392514}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &368614688240008563
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +861,8 @@ GameObject:
   - component: {fileID: 8555439554253392514}
   - component: {fileID: 2273292987115842012}
   - component: {fileID: 629672757962270219}
+  - component: {fileID: -2204118790629200509}
+  - component: {fileID: 5549611330689838450}
   m_Layer: 0
   m_Name: PurpleMonster
   m_TagString: Untagged
@@ -846,7 +879,7 @@ Transform:
   m_GameObject: {fileID: 2779325744933550264}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.77, y: 4.65, z: 0}
+  m_LocalPosition: {x: -6.182248, y: 5.0420566, z: 0}
   m_LocalScale: {x: 0.34807453, y: 0.12129142, z: 0.39898494}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -878,6 +911,7 @@ Transform:
   - {fileID: 6719402379884981674}
   - {fileID: 4668525915020217492}
   - {fileID: 4711041800634319810}
+  - {fileID: 6282726648374437552}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2273292987115842012
@@ -985,6 +1019,54 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &-2204118790629200509
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2779325744933550264}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &5549611330689838450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2779325744933550264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910dcb9f3e73185448a31a1544ed3228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ENEMIES
+  spawnPoint: {fileID: 6282726648374437552}
+  projectilePrefab: {fileID: 1188269302518564775, guid: 4cb1b772cc1ea2e4d9c42f7243214f0c, type: 3}
+  projectileSpeed: 5
+  fireRate: 2
+  patrolDistance: 3
+  moveSpeed: 1
+  damage: 50
+  health: 100
+  scoreOnDeath: 100
 --- !u!1 &3027734378428136470
 GameObject:
   m_ObjectHideFlags: 0

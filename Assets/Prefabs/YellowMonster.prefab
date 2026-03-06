@@ -1092,6 +1092,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &9098015672790314248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2895769194900798163}
+  m_Layer: 0
+  m_Name: ShootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2895769194900798163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9098015672790314248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 3.7428815, y: -10.158688, z: 180}
+  m_LocalScale: {x: 1.5251108, y: 2.5418515, z: 180}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4958731413036845730}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &9222501503594210696
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,6 +1134,8 @@ GameObject:
   - component: {fileID: 4958731413036845730}
   - component: {fileID: 146234321816118266}
   - component: {fileID: 2348248244496568481}
+  - component: {fileID: 1254977600720258453}
+  - component: {fileID: 3810517747732766484}
   m_Layer: 0
   m_Name: YellowMonster
   m_TagString: Untagged
@@ -1119,7 +1152,7 @@ Transform:
   m_GameObject: {fileID: 9222501503594210696}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.580001, y: 4.11, z: 0}
+  m_LocalPosition: {x: -4.07, y: 4.5, z: 0}
   m_LocalScale: {x: 0.65569, y: 0.393414, z: 0.131138}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1135,6 +1168,7 @@ Transform:
   - {fileID: 4501645835877428266}
   - {fileID: 1337088199868518230}
   - {fileID: 3185221795826521596}
+  - {fileID: 2895769194900798163}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &146234321816118266
@@ -1242,3 +1276,51 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &1254977600720258453
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9222501503594210696}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &3810517747732766484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9222501503594210696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910dcb9f3e73185448a31a1544ed3228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ENEMIES
+  spawnPoint: {fileID: 2895769194900798163}
+  projectilePrefab: {fileID: 1188269302518564775, guid: 4cb1b772cc1ea2e4d9c42f7243214f0c, type: 3}
+  projectileSpeed: 5
+  fireRate: 2
+  patrolDistance: 3
+  moveSpeed: 1
+  damage: 50
+  health: 100
+  scoreOnDeath: 100
