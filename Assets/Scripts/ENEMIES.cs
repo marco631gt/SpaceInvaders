@@ -20,7 +20,7 @@ public class ENEMIES : MonoBehaviour
 
     Rigidbody2D physic;
     float movement = 0f;
-    
+
 
     // Patrulla
     bool movingRight = true;
@@ -31,7 +31,7 @@ public class ENEMIES : MonoBehaviour
     // Disparo
     float fireTimer = 0f;
 
-    
+
 
     void Awake()
     {
@@ -69,7 +69,7 @@ public class ENEMIES : MonoBehaviour
                 ShootStraight();
             }
         }
-    
+
     }
 
     void FixedUpdate()
@@ -126,8 +126,8 @@ public class ENEMIES : MonoBehaviour
         {
             if (SCORE_MANAGER.Instance != null)
                 SCORE_MANAGER.Instance.AddPoints(scoreOnDeath);
-                
-                
+
+
 
             Destroy(gameObject);
         }
