@@ -651,13 +651,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ENEMIES
   spawnPoint: {fileID: 5824639740798939905}
   projectilePrefab: {fileID: 1188269302518564775, guid: 4cb1b772cc1ea2e4d9c42f7243214f0c, type: 3}
-  projectileSpeed: 5
-  fireRate: 2
+  projectileSpeed: 6
+  fireRate: 3
   patrolDistance: 3
   moveSpeed: 1
-  damage: 50
-  health: 100
-  scoreOnDeath: 100
+  damage: 25
+  health: 25
+  scoreOnDeath: 25
 --- !u!1 &5620361333710112349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,7 +1047,7 @@ Transform:
   m_GameObject: {fileID: 7167491974706024145}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 18.439528, y: -37.845287, z: 180}
+  m_LocalPosition: {x: 0.6, y: -8.2, z: 180}
   m_LocalScale: {x: 2.7051718, y: 8.115515, z: 180}
   m_ConstrainProportionsScale: 0
   m_Children: []
