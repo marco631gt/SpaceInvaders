@@ -127,6 +127,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (10)
@@ -372,6 +396,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -445,6 +493,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -530,6 +602,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -599,6 +695,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -740,6 +860,30 @@ PrefabInstance:
     - target: {fileID: 2895769194900798163, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
@@ -959,6 +1103,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster
@@ -1048,6 +1216,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (14)
@@ -1224,6 +1416,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -1296,6 +1512,30 @@ PrefabInstance:
     - target: {fileID: 2779325744933550264, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_Name
       value: PurpleMonster (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1373,6 +1613,30 @@ PrefabInstance:
     - target: {fileID: 2779325744933550264, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_Name
       value: PurpleMonster (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1455,6 +1719,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -1531,6 +1819,30 @@ PrefabInstance:
     - target: {fileID: 2895769194900798163, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
@@ -1611,6 +1923,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (6)
@@ -1708,6 +2044,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -1777,6 +2137,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (3)
@@ -1866,6 +2250,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (11)
@@ -2116,6 +2524,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -2282,6 +2714,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -2374,6 +2830,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -2452,6 +2932,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (2)
@@ -2555,6 +3059,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -2628,6 +3156,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -2711,9 +3263,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -332041546046222393, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: moveSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -332041546046222393, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
       propertyPath: shootSound
       value: 
       objectReference: {fileID: 8300000, guid: 4524d6e7ac02dda44b492267a8d514bb, type: 3}
+    - target: {fileID: -332041546046222393, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: projectileSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 724690078222712368, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 724690078222712368, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 724690078222712368, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5568628
+      objectReference: {fileID: 0}
     - target: {fileID: 1265316950436025668, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.05
@@ -2738,9 +3310,45 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.36087227
       objectReference: {fileID: 0}
+    - target: {fileID: 3380535962984669078, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380535962984669078, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.g
+      value: 0.64716977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3380535962984669078, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9574286
+      objectReference: {fileID: 0}
     - target: {fileID: 4221779743641768605, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
       propertyPath: m_Name
       value: Nave
+      objectReference: {fileID: 0}
+    - target: {fileID: 6052614619063010508, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 6052614619063010508, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6052614619063010508, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130107971440961649, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130107971440961649, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130107971440961649, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5580871
       objectReference: {fileID: 0}
     - target: {fileID: 6778805195515436330, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
       propertyPath: m_LocalScale.x
@@ -2794,6 +3402,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7004998344542811760, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 7004998344542811760, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7004998344542811760, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5568628
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2839,6 +3459,30 @@ PrefabInstance:
     - target: {fileID: 2895769194900798163, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
@@ -2909,6 +3553,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (9)
@@ -3003,6 +3671,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -3088,6 +3780,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -3157,6 +3873,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -3239,6 +3979,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (12)
@@ -3342,6 +4106,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -3420,6 +4208,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -3647,6 +4459,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -3716,6 +4552,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -3801,6 +4661,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -3883,6 +4767,30 @@ PrefabInstance:
     - target: {fileID: 2779325744933550264, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_Name
       value: PurpleMonster (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3971,6 +4879,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -4044,6 +4976,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -4121,6 +5077,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -4198,6 +5178,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (7)
@@ -4300,6 +5304,30 @@ PrefabInstance:
     - target: {fileID: 2779325744933550264, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_Name
       value: PurpleMonster (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4473,6 +5501,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -4556,6 +5608,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (4)
@@ -4665,6 +5741,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -4742,6 +5842,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (13)
@@ -4836,6 +5960,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (1)
@@ -4925,6 +6073,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -5002,6 +6174,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -5086,6 +6282,30 @@ PrefabInstance:
     - target: {fileID: 2895769194900798163, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
@@ -5238,8 +6458,8 @@ Transform:
   m_GameObject: {fileID: 1630307807}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2205, y: 2.0864, z: -1.5711}
-  m_LocalScale: {x: 22.367025, y: 10.191533, z: 0.66974366}
+  m_LocalPosition: {x: -4.0645, y: 2.0864, z: -1.5711}
+  m_LocalScale: {x: 22.423815, y: 10.191533, z: 0.66974366}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5259,6 +6479,30 @@ PrefabInstance:
     - target: {fileID: 2895769194900798163, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
@@ -5329,9 +6573,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1905546081}
     m_Modifications:
+    - target: {fileID: 1384636313862846669, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0837338
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384636313862846669, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.347
+      objectReference: {fileID: 0}
     - target: {fileID: 2373105418431080539, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Name
       value: Shield (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081085280578924249, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0705469
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081085280578924249, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3404
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalScale.x
@@ -5385,6 +6645,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.41176474
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9058824
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5398,6 +6682,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (15)
@@ -5492,6 +6800,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (5)
@@ -5601,6 +6933,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -5723,6 +7079,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -5800,6 +7180,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -5876,6 +7280,30 @@ PrefabInstance:
     - target: {fileID: 2895769194900798163, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
@@ -5960,6 +7388,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -6043,6 +7495,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -6128,6 +7604,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.91
       objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810517747732766484, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4958731413036845730, guid: 1f1c39923042c904d9593d9064d25268, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.49647176
@@ -6210,6 +7710,30 @@ PrefabInstance:
     - target: {fileID: 2779325744933550264, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_Name
       value: PurpleMonster (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6337,6 +7861,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PurpleMonster (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -6413,6 +7961,30 @@ PrefabInstance:
     - target: {fileID: 2779325744933550264, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_Name
       value: PurpleMonster (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549611330689838450, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6282726648374437552, guid: 883ea45875dcfe742b0f4516e2b7f25f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6492,6 +8064,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -6574,6 +8170,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3778150633408146781, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: m_Name
       value: GreenMonster (8)
@@ -6663,13 +8283,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1905546081}
     m_Modifications:
+    - target: {fileID: 1384636313862846669, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.4539676
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384636313862846669, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.532
+      objectReference: {fileID: 0}
     - target: {fileID: 2373105418431080539, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Name
       value: Shield (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5081085280578924249, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.4384375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081085280578924249, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5243
+      objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7571745
+      value: 0.6111913
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalScale.y
@@ -6681,7 +8317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.38639
+      value: -5.4878
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6719,6 +8355,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.41176474
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9058824
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6732,6 +8392,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1361578252}
     m_Modifications:
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: damage
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: health
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: scoreOnDeath
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 272913481433738986, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
+      propertyPath: projectileSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3938541034291468469, guid: 83c395083c041234ea9a7810c6c83225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -6922,29 +8606,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1905546081}
     m_Modifications:
+    - target: {fileID: 1384636313862846669, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.7605267
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384636313862846669, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6852
+      objectReference: {fileID: 0}
     - target: {fileID: 2373105418431080539, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Name
       value: Shield
       objectReference: {fileID: 0}
+    - target: {fileID: 5081085280578924249, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.7430565
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081085280578924249, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6765
+      objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.7571745
+      value: 0.52987635
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7571745
+      value: 0.6835771
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.7571745
+      value: 0.6835771
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.72421026
+      value: 0.303
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2859702
+      value: -3.252
       objectReference: {fileID: 0}
     - target: {fileID: 7968654912554337971, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6980,23 +8680,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.4490565
       objectReference: {fileID: 0}
     - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Color.g
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8002754245094323086, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4120087
+      objectReference: {fileID: 0}
     - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Color.b
-      value: 0.5018867
+      value: 0.9622642
       objectReference: {fileID: 0}
     - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Color.g
-      value: 0.5018867
+      value: 0.59369886
       objectReference: {fileID: 0}
     - target: {fileID: 9100217346253851795, guid: ec5200ad27611a44db407abae1a35db7, type: 3}
       propertyPath: m_Color.r
-      value: 0.5018867
+      value: 0.904634
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
