@@ -39,7 +39,7 @@ public class SCORE_MANAGER : MonoBehaviour
         deathsCounter = deathsCounter + 1;
         UpdateUI();
 
-        if (deathsCounter == 3)
+        if (deathsCounter == 5)
         {
             nextLevel();
         }
