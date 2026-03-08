@@ -24,6 +24,23 @@ public class SCORE_MANAGER : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        scoreText = GameObject.Find("ScoreText")?.GetComponent<TextMeshProUGUI>();
+        healthText = GameObject.Find("HealthText")?.GetComponent<TextMeshProUGUI>();
+
         UpdateUI();
     }
 
@@ -35,11 +52,12 @@ public class SCORE_MANAGER : MonoBehaviour
 
     public void AddPoints(int points)
     {
-        score = score + points;
-        deathsCounter = deathsCounter + 1;
+        score += points;
+        deathsCounter += 1;
+
         UpdateUI();
 
-        if (deathsCounter == 3)
+        if (deathsCounter == 10)
         {
             nextLevel();
         }
@@ -50,6 +68,7 @@ public class SCORE_MANAGER : MonoBehaviour
         score = 0;
         deathsCounter = 0;
         level = 1;
+
         UpdateUI();
     }
 
@@ -61,7 +80,7 @@ public class SCORE_MANAGER : MonoBehaviour
 
     void nextLevel()
     {
-        level = level + 1;
+        level += 1;
         deathsCounter = 0;
 
         if (level <= 4)

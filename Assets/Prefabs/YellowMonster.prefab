@@ -1117,7 +1117,7 @@ Transform:
   m_GameObject: {fileID: 9098015672790314248}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.67, y: -0.8, z: 180}
+  m_LocalPosition: {x: 0.47, y: -0.91, z: 180}
   m_LocalScale: {x: 1.5251108, y: 2.5418515, z: 180}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1151,9 +1151,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9222501503594210696}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.07, y: 4.5, z: 0}
-  m_LocalScale: {x: 0.65569, y: 0.393414, z: 0.131138}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.19, y: 4.24, z: -1.1385}
+  m_LocalScale: {x: 0.42314288, y: 0.25388572, z: 0.08462857}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3188259699195248899}
@@ -1264,7 +1264,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.037225425, y: 0.20680833}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1274,7 +1274,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8685931, y: 2.0754027}
   m_EdgeRadius: 0
 --- !u!50 &1254977600720258453
 Rigidbody2D:
@@ -1317,10 +1317,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ENEMIES
   spawnPoint: {fileID: 2895769194900798163}
   projectilePrefab: {fileID: 1188269302518564775, guid: 4cb1b772cc1ea2e4d9c42f7243214f0c, type: 3}
-  projectileSpeed: 6
-  fireRate: 3
-  patrolDistance: 3
-  moveSpeed: 1
+  projectileSpeed: 12
+  fireRate: 4
+  patrolDistance: 1
+  moveSpeed: 0.5
   damage: 25
-  health: 25
+  health: 100
   scoreOnDeath: 25

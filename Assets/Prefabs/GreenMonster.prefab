@@ -483,9 +483,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3778150633408146781}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.432228, y: 5.1667557, z: 0}
-  m_LocalScale: {x: 0.3696623, y: 0.12322077, z: 0.12322077}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.12, y: 4.57, z: -1.1385}
+  m_LocalScale: {x: 0.23855782, y: 0.07951928, z: 0.07951928}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3361030435303677228}
@@ -598,7 +598,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.17339706, y: -3.0937617}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -608,7 +608,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.0768871, y: 7.1875224}
   m_EdgeRadius: 0
 --- !u!50 &439506776540629869
 Rigidbody2D:
@@ -651,12 +651,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ENEMIES
   spawnPoint: {fileID: 5824639740798939905}
   projectilePrefab: {fileID: 1188269302518564775, guid: 4cb1b772cc1ea2e4d9c42f7243214f0c, type: 3}
-  projectileSpeed: 6
-  fireRate: 3
-  patrolDistance: 3
-  moveSpeed: 1
+  projectileSpeed: 12
+  fireRate: 4
+  patrolDistance: 1
+  moveSpeed: 0.5
   damage: 25
-  health: 25
+  health: 100
   scoreOnDeath: 25
 --- !u!1 &5620361333710112349
 GameObject:
@@ -1047,8 +1047,8 @@ Transform:
   m_GameObject: {fileID: 7167491974706024145}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0.6, y: -8.2, z: 180}
-  m_LocalScale: {x: 2.7051718, y: 8.115515, z: 180}
+  m_LocalPosition: {x: -0.05, y: -7.64, z: 180}
+  m_LocalScale: {x: 1.9591665, y: 5.877499, z: 130.3614}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7276544912051612422}
