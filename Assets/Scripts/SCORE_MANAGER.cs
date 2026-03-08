@@ -8,6 +8,7 @@ public class SCORE_MANAGER : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] TextMeshProUGUI healthText;
+    [SerializeField] TextMeshProUGUI winText;
     [SerializeField] string prefix = "Points: ";
 
     int score = 0;
@@ -40,6 +41,10 @@ public class SCORE_MANAGER : MonoBehaviour
     {
         scoreText = GameObject.Find("ScoreText")?.GetComponent<TextMeshProUGUI>();
         healthText = GameObject.Find("HealthText")?.GetComponent<TextMeshProUGUI>();
+        winText = GameObject.Find("WinText")?.GetComponent<TextMeshProUGUI>();
+
+        if (winText != null)
+            winText.gameObject.SetActive(false);
 
         UpdateUI();
     }
@@ -57,7 +62,7 @@ public class SCORE_MANAGER : MonoBehaviour
 
         UpdateUI();
 
-        if (deathsCounter == 2)
+        if (deathsCounter == 64)
         {
             nextLevel();
         }
@@ -89,7 +94,19 @@ public class SCORE_MANAGER : MonoBehaviour
         }
         else
         {
-            Debug.Log("¡Felicidades, terminaste todos los niveles!");
+            if (winText != null)
+                winText.gameObject.SetActive(true);
+
+            Invoke("RestartGame", 4f);
         }
+    }
+
+    void RestartGame()
+    {
+    if (winText != null)
+        winText.gameObject.SetActive(false);
+
+    ResetScore();
+    SceneManager.LoadScene("SpaceInvaders");
     }
 }
