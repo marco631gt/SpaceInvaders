@@ -5344,9 +5344,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -332041546046222393, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -332041546046222393, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
       propertyPath: shootSound
       value: 
       objectReference: {fileID: 8300000, guid: 4524d6e7ac02dda44b492267a8d514bb, type: 3}
+    - target: {fileID: -332041546046222393, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: projectileSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1265316950436025668, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.05
@@ -9350,7 +9358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: health
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3663207225806575766, guid: 24e5a46565d7f86439f21b3eda738341, type: 3}
       propertyPath: fireRate

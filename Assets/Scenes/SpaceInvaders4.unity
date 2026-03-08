@@ -5501,6 +5501,10 @@ PrefabInstance:
       propertyPath: shootSound
       value: 
       objectReference: {fileID: 8300000, guid: 4524d6e7ac02dda44b492267a8d514bb, type: 3}
+    - target: {fileID: -332041546046222393, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
+      propertyPath: projectileSpeed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1265316950436025668, guid: cbcea2d6789efc543b257765f54a5c98, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.05
