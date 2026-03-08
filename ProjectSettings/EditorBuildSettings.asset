@@ -7,16 +7,16 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/SpaceInvaders.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    guid: 3baf8b3659143ba47960ead0cf94fa4b
   - enabled: 1
     path: Assets/Scenes/SpaceInvaders2.unity
-    guid: 07221cfb432477a4286823848820c708
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/Scenes/SpaceInvaders3.unity
-    guid: 726ccd64abde01c4ea2857598b3d6b56
+    guid: 065c3da7365ac7442b0c52ee476e45d1
   - enabled: 1
     path: Assets/Scenes/SpaceInvaders4.unity
-    guid: e9617d1d09212704b8927ac65078f640
+    guid: bd50d1d5e4d98a94e998b169141912e1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -57,7 +57,7 @@ public class SCORE_MANAGER : MonoBehaviour
 
         UpdateUI();
 
-        if (deathsCounter == 10)
+        if (deathsCounter == 2)
         {
             nextLevel();
         }
