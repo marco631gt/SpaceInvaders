@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d64dbc3b1c57fd74fa814c68635d84d3
+  - enabled: 1
     path: Assets/Scenes/SpaceInvaders.unity
     guid: 3baf8b3659143ba47960ead0cf94fa4b
   - enabled: 1
@@ -17,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SpaceInvaders4.unity
     guid: bd50d1d5e4d98a94e998b169141912e1
+  - enabled: 1
+    path: Assets/Scenes/BallPlay.unity
+    guid: 37f892f022b7cec4d9f5610eae3e873d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
