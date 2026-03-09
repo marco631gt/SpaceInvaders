@@ -13,38 +13,48 @@ public class SCORE_MANAGERBALL : MonoBehaviour
     int score = 0;
     int bestscore = 0;
 
-    void Awake(){
-        if (Instance != null && Instance != this){
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
             Destroy(gameObject);
             return;
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
+
         UpdateUI();
-        
     }
 
-    public void AddPoints(int points){
-        score = score + points;
+    public void AddPoints(int points)
+    {
+        score += points;
         UpdateUI();
     }
-    public void ResetScore(){
+
+    public void ResetScore()
+    {
         score = 0;
         UpdateUI();
     }
-    public void UpdateUI2() { 
-        lastScore.text = "Última puntuación: " + score.ToString();
-        if (score > bestscore) { 
+
+    public void UpdateUI2()
+    {
+        if (lastScore != null)
+            lastScore.text = "Última puntuación: " + score;
+
+        if (score > bestscore)
+        {
             bestscore = score;
-            bestScore.text = "Mejor puntuación: " + bestscore.ToString();
+
+            if (bestScore != null)
+                bestScore.text = "Mejor puntuación: " + bestscore;
         }
     }
-    void UpdateUI(){
 
+    void UpdateUI()
+    {
         if (scoreText != null)
-            scoreText.text = prefix + score.ToString();
-            
+            scoreText.text = prefix + score;
     }
-
 }

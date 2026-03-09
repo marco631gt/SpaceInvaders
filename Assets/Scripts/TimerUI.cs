@@ -1,15 +1,15 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class TimerUI : MonoBehaviour
 {
     void Start()
     {
-        GameTimer timer = Object.FindFirstObjectByType<GameTimer>();
+        GameTimer timer = FindFirstObjectByType<GameTimer>();
 
         if (timer != null)
         {
-            timer.timerText = GetComponent<Text>();
+            timer.timerText = GetComponent<TMP_Text>();
         }
     }
 }
