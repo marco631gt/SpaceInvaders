@@ -12,4 +12,16 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("BallPlay");
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quit Game"); // solo se ve en el editor
+        Application.Quit();
+    }
+
+    public void BackToMenu()
+{
+    SceneManager.LoadScene("MainMenu");
+}
+
 }
