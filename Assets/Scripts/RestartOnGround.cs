@@ -1,14 +1,11 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class RESTART_ON_GROUND : MonoBehaviour
 {
     [SerializeField] string groundTag = "Suelo";
     [SerializeField] float restartDelay = 0.5f;
-
-    [SerializeField] TextMeshProUGUI scoreText;
 
     bool _isRestarting = false;
 
@@ -28,9 +25,13 @@ public class RESTART_ON_GROUND : MonoBehaviour
 
         yield return new WaitForSeconds(restartDelay);
 
-        SCORE_MANAGERBALL.Instance.UpdateUI2();
+        // Mostrar la puntuación final antes de reiniciar
+        SCORE_MANAGERBALL.Instance.ShowFinalScore();
+
+        // Reiniciar puntos
         SCORE_MANAGERBALL.Instance.ResetScore();
 
+        // Reiniciar escena
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

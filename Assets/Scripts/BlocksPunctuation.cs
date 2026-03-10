@@ -34,8 +34,8 @@ public class BLOCKS_PUNCTUATION : MonoBehaviour
 
         yield return new WaitForFixedUpdate();
 
-        if (SCORE_MANAGER.Instance != null)
-            SCORE_MANAGER.Instance.AddPoints(points);
+        if (SCORE_MANAGERBALL.Instance != null)
+            SCORE_MANAGERBALL.Instance.AddPoints(points);
         else
             Debug.LogWarning("BLOCKS_PUNCTUATION: SCORE_MANAGER no encontrado en la escena.");
 

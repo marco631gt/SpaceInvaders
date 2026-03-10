@@ -22,7 +22,6 @@ public class SCORE_MANAGERBALL : MonoBehaviour
         }
 
         Instance = this;
-
         UpdateUI();
     }
 
@@ -38,7 +37,7 @@ public class SCORE_MANAGERBALL : MonoBehaviour
         UpdateUI();
     }
 
-    public void UpdateUI2()
+    public void ShowFinalScore()
     {
         if (lastScore != null)
             lastScore.text = "Última puntuación: " + score;
