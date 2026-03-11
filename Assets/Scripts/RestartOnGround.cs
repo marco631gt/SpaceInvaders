@@ -25,13 +25,12 @@ public class RESTART_ON_GROUND : MonoBehaviour
 
         yield return new WaitForSeconds(restartDelay);
 
-        // Mostrar la puntuación final antes de reiniciar
-        SCORE_MANAGERBALL.Instance.ShowFinalScore();
+        if (SCORE_MANAGERBALL.Instance != null)
+        {
+            SCORE_MANAGERBALL.Instance.UpdateUI2();
+            SCORE_MANAGERBALL.Instance.ResetScore();
+        }
 
-        // Reiniciar puntos
-        SCORE_MANAGERBALL.Instance.ResetScore();
-
-        // Reiniciar escena
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

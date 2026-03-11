@@ -28,7 +28,6 @@ public class BLOCKS_PUNCTUATION : MonoBehaviour
     {
         _destroying = true;
 
-        
         if (_col != null) _col.enabled = false;
         if (_sr != null) _sr.enabled = false;
 
@@ -37,9 +36,8 @@ public class BLOCKS_PUNCTUATION : MonoBehaviour
         if (SCORE_MANAGERBALL.Instance != null)
             SCORE_MANAGERBALL.Instance.AddPoints(points);
         else
-            Debug.LogWarning("BLOCKS_PUNCTUATION: SCORE_MANAGER no encontrado en la escena.");
+            Debug.LogWarning("BLOCKS_PUNCTUATION: SCORE_MANAGERBALL no encontrado en la escena.");
 
-        
         Destroy(gameObject);
     }
 }

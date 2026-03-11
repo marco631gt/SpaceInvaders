@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class SCORE_MANAGERBALL : MonoBehaviour
 {
@@ -22,13 +23,20 @@ public class SCORE_MANAGERBALL : MonoBehaviour
         }
 
         Instance = this;
+        DontDestroyOnLoad(gameObject);
         UpdateUI();
     }
 
     public void AddPoints(int points)
     {
-        score += points;
+        score = score + points;
         UpdateUI();
+
+        if (score >= 10000)
+        {
+            UpdateUI2();
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
     public void ResetScore()
@@ -37,23 +45,23 @@ public class SCORE_MANAGERBALL : MonoBehaviour
         UpdateUI();
     }
 
-    public void ShowFinalScore()
+    public void UpdateUI2()
     {
         if (lastScore != null)
-            lastScore.text = "Última puntuación: " + score;
+            lastScore.text = "Última puntuación: " + score.ToString();
 
         if (score > bestscore)
         {
             bestscore = score;
 
             if (bestScore != null)
-                bestScore.text = "Mejor puntuación: " + bestscore;
+                bestScore.text = "Mejor puntuación: " + bestscore.ToString();
         }
     }
 
     void UpdateUI()
     {
         if (scoreText != null)
-            scoreText.text = prefix + score;
+            scoreText.text = prefix + score.ToString();
     }
 }
