@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 84586805}
   - component: {fileID: 84586804}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3033,7 +3033,7 @@ GameObject:
   - component: {fileID: 572067393}
   - component: {fileID: 572067392}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: LastScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5741,7 +5741,7 @@ GameObject:
   - component: {fileID: 1209636607}
   - component: {fileID: 1209636606}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: BestScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7231,9 +7231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b22968739c53e374e9b21a1320925c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SCORE_MANAGER
-  scoreText: {fileID: 84586804}
-  bestScore: {fileID: 1209636606}
-  lastScore: {fileID: 572067392}
   prefix: 'Puntos: '
 --- !u!4 &1534732029
 Transform:
